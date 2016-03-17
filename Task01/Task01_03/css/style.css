@@ -5,7 +5,9 @@
 	font-family:"Microsoft Yahei";
 	box-sizing:border-box;
 }
-
+section{
+	border:1px solid #999;
+}
 .container{
 	padding: 20px;
 	background: #eee;
@@ -13,29 +15,37 @@
 	overflow: auto;
 	min-width: 500px;
 }
-.logoImg{
-	width: 80px;
-	height: 80px;
-}
 .teamPort{
 	width: 200px;
 	float: left;
 	background: white;
-	border:1px solid #999;
+	padding: 20px;
+}
+#teamLogo{
+	float: left;
+}
+#teamName{
+	margin-left: 100px;
+}
+.logoImg{
+	width: 80px;
+	height: 80px;
 }
 .teamIntro{
-	margin-left:210px; 
-	margin-right:130px; 
+	margin-left:220px; 
+	margin-right:140px; 
 	min-width: 50px;
 	background: white;
-	border:1px solid #999;
+	padding: 20px;
 }
 .teamMember{
 	width: 120px;
 	float: right;
 	background: white;
 	border:1px solid #999;
-}
-.teamMember{
+	padding: 10px;
 	text-align: center;
+}
+.memberLogo{
+	margin: 10px;
 }
