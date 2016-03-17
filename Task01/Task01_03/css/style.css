@@ -1,0 +1,41 @@
+/*清除默认样式*/
+*{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft Yahei";
+	box-sizing:border-box;
+}
+
+.container{
+	padding: 20px;
+	background: #eee;
+	border:1px solid #999;
+	overflow: auto;
+	min-width: 500px;
+}
+.logoImg{
+	width: 80px;
+	height: 80px;
+}
+.teamPort{
+	width: 200px;
+	float: left;
+	background: white;
+	border:1px solid #999;
+}
+.teamIntro{
+	margin-left:210px; 
+	margin-right:130px; 
+	min-width: 50px;
+	background: white;
+	border:1px solid #999;
+}
+.teamMember{
+	width: 120px;
+	float: right;
+	background: white;
+	border:1px solid #999;
+}
+.teamMember{
+	text-align: center;
+}
