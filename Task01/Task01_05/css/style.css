@@ -36,11 +36,12 @@ header img{
 }
 /*网页内容*/
 .main{
-	margin-right: 430px;
+	margin-right: 410px;
+	min-width: 280px;
 }
 .article1, .article2, .article3, .picture, .sideBar{
 	background: #F5F5F5;
-	margin: 10px 20px;
+	margin: 10px 10px;
 	padding: 20px 20px;
 	border-style: solid ridge ridge solid; 
 	border-width: 1px 5px 5px 1px; 
@@ -59,18 +60,20 @@ header img{
 }
 .picture li{
 	border:1px solid gray;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	text-align: center;
 	padding: 5px;
 	margin: 10px;
+	display: inline-block;
 }
 .picture  img{
 	width: 80%;
 	height: 80%;
 }
 .picture p{
-	line-height: 50%;
+	line-height: 10%;
+	font-size: 80%;
 }
 .article3 table{
 	width: 100%;
@@ -105,7 +108,7 @@ header img{
 .sideBar{
 	float: right;
 	width: 350px;
-	margin: 30px 30px 10px 20px;
+	margin: 10px;
 	padding: 20px 20px;
 }
 .inputDiv{
