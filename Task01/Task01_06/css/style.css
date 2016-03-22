@@ -1,0 +1,91 @@
+*, body, .container, header, #redBlock{
+	padding: 0;
+	margin: 0;
+	font-family:"Microsoft Yahei";
+	box-sizing: border-box; 
+}
+body{
+	background: white;
+}
+.container{
+	height: 1386px;
+	width: 980px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0 44px 0 44px;
+}
+header{
+	width: 892px;
+	border-bottom: 2px solid #938e8c;
+	overflow: auto;
+}
+header div{
+	height: 61px;
+	width: 110px;
+}
+header div span{
+	position: relative;
+	top: 38px;
+	font: 12px "黑体";
+}
+#redBlock{
+	background: #d45d5c;
+	color: white;
+	text-indent: 1em;
+	float: left;
+}
+#topDate{
+	color: #d45d5c;
+	float: right;
+	text-align: right;
+}
+.firstPart{
+	margin: 20px 0 10px;
+}
+.firstPartLeft{
+	height: 301px;
+	width: 641px;
+	position: relative;
+	margin-right: 24px;
+	display: inline-block;
+	float:left;
+}
+.leftBlock, .rightBlock{
+	width: 191px;
+	height: 301px;
+	opacity: 0.3;
+}
+.leftBlock{
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+	background: #75B86B;
+}
+.rightBlock{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #D55D5C;
+}
+#topPicture{
+	height: 301px;
+	width: 641px;
+	display: block;
+}
+.firstPartRight{
+	height: 301px;
+	width: 203px;
+	border-top: 2px solid #cc8091;
+	display: inline-block;
+	margin-left: 24px;
+	float: right;
+}
+.firstPartTittle{
+	font: 24px "Microsoft Yahei";
+	color: #000;
+	line-height: 40px;
+	text-decoration:underline;
+	text-transform:capitalize;
+	font-variant:small-caps;
+}
