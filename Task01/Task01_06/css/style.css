@@ -1,4 +1,4 @@
-*, body, .container, header, #redBlock{
+*{
 	padding: 0;
 	margin: 0;
 	font-family:"Microsoft Yahei";
@@ -39,8 +39,11 @@ header div span{
 	float: right;
 	text-align: right;
 }
-.firstPart{
+.firstPart, .secondPart, .thirdPart{
 	margin: 20px 0 10px;
+}
+.firstPart{
+	height: 301px;
 }
 .firstPartLeft{
 	height: 301px;
@@ -89,3 +92,65 @@ header div span{
 	text-transform:capitalize;
 	font-variant:small-caps;
 }
+.firstPartContent{
+	font: 12px "楷体";
+	color: #676767;
+	line-height: 10px;
+
+}
+.firstPartContent:first-letter{
+	text-transform:uppercase; 
+}
+.firstPart700{
+	font: italic 116px "Microsoft Yahei";
+	color: #75b86b;
+	position: relative;
+	top: 0;
+	left: -15px;
+}
+.firstPartCSS{
+	position: relative;
+	top: -12px;
+}
+.big32{
+	font: 55px "Microsoft Yahei";
+	color: #cc8091;
+	float: left;
+}
+.bigCSS{
+	font: 21px "Microsoft Yahei";
+	color: #cc8091;
+	position: relative;
+	top: 27px;
+}
+.smallCSS{
+	font: 12px "Microsoft Yahei";
+	color: #BDBDBD;
+	position: relative;
+	bottom: -13.5px;
+}
+.secondPart{
+	width: 670px;
+	height: 200px;
+}
+.secondPart h2{
+	font: bold 21px "Microsoft Yahei";
+	text-decoration:underline;
+}
+.secondPart p{
+	font: 12px "Microsoft Yahei";
+	line-height: 16px;
+	opacity: 0.7;
+}
+
+.firstArticle, .secondArticle, .thirdArticle{
+	width: 30%;
+	display: inline-block;
+	margin-right: 3%;
+	float: left;
+}
+.colorNumber{
+	font-style: italic;
+	color: #cd4a48;
+}
+
