@@ -154,3 +154,126 @@ header div span{
 	color: #cd4a48;
 }
 
+.firstArticle h2{
+	text-transform:capitalize;
+	color:#3C8F57;
+}
+.secondArticle h2{
+	text-transform:capitalize;
+	color:#CF9B50;
+}
+.thirdArticle h2{
+	text-transform:capitalize;
+	color:#CE7885;
+}
+
+.thirdPartTitle{
+	width: 415px;
+	border-bottom: 2px solid #11456b;
+	margin-bottom: 20px;
+}
+.thirdPartLeft{
+	float: left;
+}
+.thirdPartTitle h1{
+	text-transform: uppercase;
+	font: bold 42px "黑体";
+	color: #11456b;
+	line-height: 16px;
+
+}
+.thirdPartTitle h1 span{
+	font: bold italic 72px "黑体";
+	color: #f5e327;
+}
+
+.thirdPartTitle h2{
+	font: bold  33px "黑体";
+	color: #11456b;
+	line-height: 50px;
+}
+.thirdPartArticle p span{
+	margin-right: 5px;
+	font: 70px "Microsoft Yahei";
+	color: #f5e327;
+	float: left;
+}
+.thirdPartArticle{
+	width: 415px;
+	font: 12px "宋体";
+	line-height: 16px;
+	color: #767777;
+}
+.thirdPartArticle img{
+	float: right;
+	margin:10px 5px 10px 10px;
+}
+
+.thirdPartRight{
+	float: right;
+	width: 458px;
+}
+.thirdPartRight img{
+	width: 458px;
+	height: 275px;
+}
+.thirdPartCover{
+	width: 458px;
+	height: 61px;
+	line-height: 61px;
+	background: black;
+	opacity:0.4;
+	position: relative;
+	top:-65px;
+}
+.thirdPartTitle2{
+	height: 44px;
+	border-left: 3px solid #72b16a;
+	position: relative;
+	top: -114px;
+	left: 40px;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+.front1{
+	font: 26px "Microsoft Yahei";
+	color: #ffffff;
+	margin:0 10px;
+}
+.front2{
+	font: italic 12px "Microsoft Yahei";
+	color: #72b16a;
+	line-height:140%;
+}
+.thirdPartRightBottom{
+	width: 459px;
+	height: 318px;
+	background: #EEEED6;
+	margin-top: -60px;
+	padding: 20px 20px 0;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #0F466F;
+    position: relative;
+    top: -13px;
+    margin-right: 10px;
+}
+.thirdPartRightBottom p{
+	font: 16px "宋体";
+	color:#5a5b5b;
+	text-align: left;
+	line-height: 20px;
+	margin:15px;
+}
+.leftFront{
+	text-align: right;
+	font:italic 12px "宋体";
+	line-height: 20px;
+}
+
+
+
