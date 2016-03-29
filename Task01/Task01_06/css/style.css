@@ -213,25 +213,25 @@ header div span{
 	float: right;
 	width: 458px;
 }
-.thirdPartRight img{
+.thirdPartRightPicture{
 	width: 458px;
 	height: 275px;
+	background: url("../image/monk.png");
+	background-size:cover;
+	position: relative;
+
 }
 .thirdPartCover{
 	width: 458px;
 	height: 61px;
-	line-height: 61px;
-	background: black;
-	opacity:0.4;
-	position: relative;
-	top:-65px;
+	background-color:rgba(0,0,0,0.4);
+	position: absolute;
+	bottom: 0;
+	padding: 8px 35px;
 }
-.thirdPartTitle2{
+.thirdPartCover p{
 	height: 44px;
 	border-left: 3px solid #72b16a;
-	position: relative;
-	top: -114px;
-	left: 40px;
 	vertical-align: middle;
 	padding-top: 5px;
 }
@@ -249,8 +249,9 @@ header div span{
 	width: 459px;
 	height: 318px;
 	background: #EEEED6;
-	margin-top: -60px;
 	padding: 20px 20px 0;
+	margin-top: 39px;
+	position: relative;
 }
 .triangle{
 	width: 0;
@@ -262,7 +263,7 @@ header div span{
     top: -13px;
     margin-right: 10px;
 }
-.thirdPartRightBottom p{
+.thirdPartRightBottom>p{
 	font: 16px "宋体";
 	color:#5a5b5b;
 	text-align: left;
@@ -274,6 +275,37 @@ header div span{
 	font:italic 12px "宋体";
 	line-height: 20px;
 }
+.thirdPartRedBlock{
+	width: 260px;
+	height: 160px;
+	background: #d45d5c;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	vertical-align: middle;
+	padding-top: 37px;
+}
 
-
-
+.zero{
+	font: 110px "Microsoft Yahei";
+	color: #fff;
+	float: left;
+	line-height: 86px;
+	border-right:2px solid #fff;
+	margin: 0 5px;
+}
+.bigNumber{
+	font:italic 21px "黑体";
+	line-height: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 0 5px;
+}
+.helloWorld{
+	font: 12px "黑体";
+	line-height: 12px;
+	color: #fff;
+	margin: 5px 5px;
+	text-align: left;
+	float: left;
+}
