@@ -13,6 +13,7 @@ body{
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 44px 0 44px;
+	position: relative;
 }
 header{
 	width: 892px;
@@ -308,4 +309,45 @@ header div span{
 	margin: 5px 5px;
 	text-align: left;
 	float: left;
+}
+
+.manyHelloWorld{
+	font: italic 14px "黑体";
+	color: #5a5b5b;
+	line-height: 16px;
+	position: absolute;
+	width: 200px;
+	height: 160px;
+	right: 0;
+	bottom: 0;
+	padding-left: 20px;
+}
+.startQuotation, .endQuotation{
+	font:  72px "黑体";
+	color: #d45d5c;
+
+}
+.startQuotation{
+	float: left;
+	margin:0 0 -70px -40px;
+	position: relative;
+	top:-18px;
+}
+.endQuotation{
+	float: right;
+	position: relative;
+	    top: -6px;
+    right: -20px;
+}
+
+footer{
+	position: absolute;
+	bottom: 30px;
+}
+footer p{
+	border-top: 1px solid #938e8c;
+	width:892px;
+	text-align: right;
+	font: 12px "黑体";
+	color: #d45d5c;
 }
