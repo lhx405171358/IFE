@@ -20,16 +20,19 @@ header{
 	border-bottom: 2px solid #938e8c;
 	overflow: auto;
 }
-header div{
+
+header div {
 	height: 61px;
 	width: 110px;
 }
-header div span{
+
+header div span {
 	position: relative;
 	top: 38px;
 	font: 12px "黑体";
 }
-#redBlock{
+
+#redBlock {
 	background: #d45d5c;
 	color: white;
 	text-indent: 1em;
